@@ -1,0 +1,286 @@
+
+/* 
+_____________________________________________________
+
+Ignore styles that differ from site stylesheets; mockup only
+_____________________________________________________
+
+*/
+
+/* Body, container-fluid, jumbotron, scroll bar (anyClass) */
+
+
+body, html {
+  background-color: #f8f8f8f8;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Jumbotron with styling; replace with Jumbotron styles */
+
+.jumbotron {
+  background-color: #f8f8f8f8;
+  width: 100%;
+  border-radius: 0px 0px 0px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  background-image: cover;
+  background-image:url(https://caas.athenahealth.com/sites/default/files/HomepageUpdate-ServicesBg_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .centered {
+    position: absolute;
+    top: 43%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 34px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #f8f8f8f8;
+    filter: brightness(100%);
+    /* I no longer have GE Inspira Sans installed; closest is Tahoma */
+    /* You will have the correct font :-) */
+    font-family: Tahoma, Arial, Helvetica Neue, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    z-index: 0;
+  }
+
+  b, strong {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Container, rows, and columns */
+
+.Servicesgrid__services-grid-details--7sCnq {
+  text-align: center;
+  margin-left: 50%;
+  margin-right: auto;
+  max-width: 713px;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.Servicesgrid__services-grid-desc--202Xb {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 25%;
+  max-width: 713px;
+}
+
+p {
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin: 9px 0 49px;
+    line-height: 1.4;
+    color: var(--black);
+}
+  
+
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+.dkspan {
+  display: block;
+  width: 100%;
+  height: 4%;
+  padding: 5px;
+  border: 0px;    
+  background-color: rgb(46, 45, 45); 
+  position: absolute;
+  z-index: 1;
+  margin-top: 12%;
+
+}
+
+.ltspan {
+  display: block;
+  width: 100%;
+  height: 4%;
+  padding: 5px;
+  border: 0px;    
+  background-color: rgb(102, 98, 98);
+  position: absolute;
+  z-index: 1;
+  margin-top: 17%;
+}
+
+.card {
+  width: 40rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  z-index: 2;
+}
+
+.card-body {
+  background-color: rgb(228, 226, 226);
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.card-content {
+  width: 600px;
+}
+
+.card-text {
+  text-align: center;
+  background-color: rgb(245, 207, 105);
+  color: white;
+  opacity: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 999;
+  margin-top: 0%;
+}
+
+.img-responsive {
+  width: 180px;
+  height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-img-port {
+  margin-left: 50px;
+  width: 215px;
+  height: 160px;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-left: 50%;
+}
+
+.form-control {
+  width: 300px;
+}
+
+/* Sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(26, 25, 25);
+  color: rgb(167, 164, 164);
+  text-align: center;
+  z-index: 4;
+  font-size: 10px;
+  
+}
+
+
+/* CUSTOM NAVBAR STYLES */
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    opacity: 0.8; 
+    filter:(opacity=80);
+}
+
+#brand {
+    float: left;
+    display: block;
+    color: rgb(250, 248, 248);
+    text-decoration: none;
+    font-size: 22px;
+    background-color: rgb(102, 98, 98);
+    text-align: center;
+    padding: 20px 25px 20px 25px;;
+    margin: 0% 40% 0% 10%;
+}
+
+.nav-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+/* Services Grid Styles */
+
+.Servicesgrid__services-grid--3ftID{width:100%;padding:48px 0 43px;background:var(--very-light-gray)}.Servicesgrid__services-grid-details--7sCnq{text-align:center;margin-left:auto;margin-right:auto;max-width:713px}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-heading--2OqfR{font-family:MetricMedium;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;font-size:30px;font-size:1.875rem;overflow:hidden;line-height:1.27;color:var(--athena-purple);letter-spacing:0}[class~=black-theme] .Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-heading--2OqfR{color:var(--teal)}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-desc--202Xb{font-family:MetricRegular;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;font-size:20px;font-size:1.25rem;margin:9px 0 49px;line-height:1.4;color:var(--black)}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-desc--202Xb a{color:var(--alert-green);font-family:var(--metric-regular--ff);font-weight:var(--metric-regular-fw);font-size:inherit}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-desc--202Xb a:hover{text-decoration:underline}.Servicesgrid__services-grid-list--3Tpzs{list-style:none;margin-left:auto;margin-right:auto}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-icon--2_vz8{margin:41px 27px 0 3px;overflow:hidden;float:left}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-icon--2_vz8 img{width:76px;height:76px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-title--27g7-{font-family:MetricMedium;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;font-size:20px;font-size:1.25rem;line-height:1.4;letter-spacing:.1px;color:var(--athena-purple);margin-top:27px;margin-bottom:6px}[class~=black-theme] .Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-title--27g7-{color:var(--black)}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A{font-size:18px;padding:3px 0 8px 1px;color:var(--black)}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A,.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A p{font-family:MetricRegular;font-weight:400;font-style:normal;font-stretch:normal;line-height:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;line-height:1.5;letter-spacing:normal}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A p{font-size:16px;font-size:1rem;color:inherit}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-url--2z3n-{font-family:MetricMedium;font-weight:500;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;color:var(--alert-green);letter-spacing:0;font-size:18px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH:hover,.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH:hover .Servicesgrid__services-grid-item-url--2z3n-{text-decoration:underline}.Servicesgrid__services-grid--3ftID a strong{color:var(--black);font-family:MetricMedium;font-size:inherit}.Servicesgrid__services-grid--3ftID a strong:hover{text-decoration:underline}@media screen and (max-width:1140px){.Servicesgrid__services-grid--3ftID{max-width:100%;padding:48px 15px 43px}}@media screen and (max-width:768px){.Servicesgrid__services-grid--3ftID{max-width:100%;padding:30px 20px 63px}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-heading--2OqfR{margin-top:10px}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-desc--202Xb{margin:11px 0 31px}.Servicesgrid__services-grid-details--7sCnq{max-width:100%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH{display:flex;align-items:flex-start;justify-content:center;background-color:var(--white);margin-bottom:16px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH:last-child{border:0}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH .Servicesgrid__services-grid-linkwrap--1iL-p{display:block;max-width:100%;padding:19px 10px 23px;width:100%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH .Servicesgrid__services-grid-item-title--27g7-{margin-top:0;margin-bottom:-2px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-details--1fPjJ{text-align:left;float:left}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-icon--2_vz8{margin:4px 10px 0 0;float:left}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-icon--2_vz8 img{width:60px;height:60px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-icon--2_vz8 svg{width:100%;height:100%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A{padding:1px 0 9px;min-width:104%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-details--1fPjJ{max-width:70%}}@media (min-width:769px){.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-heading--2OqfR{font-size:36px;font-size:2.25rem}.Servicesgrid__services-grid-details--7sCnq .Servicesgrid__services-grid-desc--202Xb{font-size:20px;font-size:1.25rem}.Servicesgrid__services-grid-list--3Tpzs{display:flex;flex-wrap:wrap;max-width:1080px;margin-top:-22px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-details--1fPjJ{float:left;width:74%;margin-bottom:-4px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH{width:50%;max-width:530px;margin-bottom:10px;background-color:#fff;clear:both}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH:nth-child(odd){margin-right:19px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH .Servicesgrid__services-grid-linkwrap--1iL-p{display:block;width:100%;max-width:530px;padding:0 34px 20px 25px}.Servicesgrid__services-grid-list--3Tpzs.Servicesgrid__list-count-4--RtZTT .Servicesgrid__services-grid-item--yLLTH{width:50%;margin-bottom:60px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A,.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-title--27g7-,.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-url--2z3n-{max-width:100%;margin-left:auto;margin-right:auto}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-title--27g7-{font-size:20px;font-size:1.25rem;line-height:1.4}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A{font-size:14px;font-size:.875rem;line-height:1.43}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A p{font-size:14px;font-size:.875rem;margin-top:-5px;line-height:1.43}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-url--2z3n-{font-size:18px}}@media screen and (min-width:768px){.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-details--1fPjJ .Servicesgrid__services-grid-item-title--27g7-{margin-left:-2px;margin-right:0}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-details--1fPjJ .Servicesgrid__services-grid-item-desc--3WS9A{margin-left:-3px;margin-right:0}}@media screen and (min-width:769px) and (max-width:3000px){.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH{max-width:49%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH:nth-child(odd){margin-right:2%}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH .Servicesgrid__services-grid-linkwrap--1iL-p{display:block;max-width:100%;padding:0 10px 27px}.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item--yLLTH .Servicesgrid__services-grid-item-icon--2_vz8{margin:29px 10px 0 auto}}
+
+.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-title--27g7- {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #582C83;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.Servicesgrid__services-grid-list--3Tpzs .Servicesgrid__services-grid-item-desc--3WS9A p {
+  font-size: 14px;
+  font-size: .875rem;
+  margin-top: -5px;
+  line-height: 1.43;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.Servicesgrid__services-grid-list--3Tpzs {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary {
+  color: #fff;
+  border-color: #54aa38;
+}
+
+
+

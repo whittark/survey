@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <style type="text/css">
+    .jumbotron{
+      background-image:url(https://caas.athenahealth.com/sites/default/files/HomepageUpdate-ServicesBg_0.jpg);
+      background-repeat: no-repeat;
+    }
+    .banner-title.Banner__banner-title--pwzOj {
+      font-family: MetricRegular !important;
+      font-size: 20px !important;
+      line-height: 26px !important;
+      color: #000 !important;
+      margin-bottom: 30px; 
+    }
+    h1{
+      margin-top: 5%;
+      font-family: Metric Semibold !important;
+      font-size: 28px !important;
+      line-height: 34px !important;
+      color: #582c83;
+      margin-bottom: 20px !important;
+    }
+    #link{
+      color: white;
+    }
+    .container{
+      color: rgb(50, 50, 51)
+    }
+    #surveyhead{
+      padding-top: 4%
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="Servicesgrid__services-grid-heading--2OqfR" style="color:#582C83; font-size:24pt; font-weight:600; padding-top:15%">  
+          get started
+        </h2>
+        <div class="Servicesgrid__services-grid-desc--202Xb" style="color:#000000; padding-bottom: 3%"><p>Take a brief survey to get started with cloud-secured prescribing.</p>
+        </div>
+  </div>  
+<div class = "container">
+	
+        <div class="panel panel-default">
+        
+        <div class="panel-heading">
+          <h3 class="panel-title" style="color:#582C83"><strong>about you</strong></h3>
+        </div>
+        
+        <div class="panel-body">
+          <h4>Name</h4>
+          <div class="input-group">
+            <!-- Form -->
+            <input id = "formName" class="form-control" type="text" name="name">
+            <span class="input-group-addon">(Required)</span>
+          </div>  
+          <br>
+          <h4>Organization</h4>
+          <div class="input-group">
+            <input id = "formOrg" class="form-control" type="text" name="name">
+            <span class="input-group-addon">(Required)</span>
+          </div>
+        </div>
+      
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title" style="color:#582C83"><strong>tell us about your organization</strong></h3>
+          <p></p>
+        </div>
+        <div class="panel-body">
+       
+          <h4 style="color:#582C83; font-size: 12pt"><strong>1. Azure Active Directory onboarding</strong></h4>
+          <h5>The prescription module uses Azure Active Directory (Azure AD) to validate user access. Has your organization completed Azure AD onboarding?</h5>
+          <select data-placeholder="" class="select" id="Q1">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+         
+          <h4 style="color:#582C83; font-size: 12pt"><strong>2. Electronic prescribing</strong></h4>
+          <h5>Does your organization have at least one provider who prescribes electronically?</h5>
+          <select data-placeholder="" class="select" id="Q2">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+   
+          <h4 style="color:#582C83; font-size: 12pt"><strong>3. Non-controlled substance prescribing</strong></h4>
+          <h5>Do the practices in your organization only prescribe non-controlled substances?</h5>
+          <select data-placeholder="" class="select" id="Q3">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          
+          <h4 style="color:#582C83; font-size: 12pt"><strong>4. Controlled substance prescribing</strong></h4>
+          <h5>Do you have at least one provider currently enrolled to electronically prescribe controlled substances?</h5>
+          <select data-placeholder="" class="select" id="Q4">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+         
+          <h4 style="color:#582C83; font-size: 12pt"><strong>5. EPCS curious</strong></h4>
+          <h5>If not EPCS enabled, are you interested in controlled substance prescribing going forward?</h5>
+          <select data-placeholder="" class="select" id="Q5">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          <h4 style="color:#582C83; font-size: 12pt"><strong>6. Controlled substance prescribing with "EPCS CO"</strong></h4>
+          <h5>If your organization is enrolled for controlled substance prescribing, are you enrolled through "EPCS CO"?</h5>
+          <select data-placeholder="" class="select" id="Q6">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          <h4 style="color:#582C83; font-size: 12pt"><strong>7. Hard tokens from "Token Co"</strong></h4>
+          <h5>If your organization is enrolled for controlled substance prescribing, are you actively using hard tokens from "Token Co"?</h5>
+          <select data-placeholder="" class="select" id="Q7">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          <h4 style="color:#582C83; font-size: 12pt"><strong>8. Prescription Drug Monitoring </strong></h4>
+          <h5>Does your organization have a subscription with "PDMP CO" for prescription drug monitoring?<i>is</i>.</h5>
+          <select data-placeholder="" class="select" id="Q8">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          <h4 style="color:#582C83; font-size: 12pt"><strong>9. Upgrade timeline </strong></h4>
+          <h5>Are you planning to upgrade to x version by December 2020?<i>is</i>.</h5>
+          <select data-placeholder="" class="select" id="Q9">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+          <h4 style="color:#582C83; font-size: 12pt"><strong>10. Clinical reporting </strong></h4>
+          <h5>Are you planning to complete clinical reporting prior to upgrading?<i>is</i>.</h5>
+          <select data-placeholder="" class="select" id="Q10">
+            <option value=""></option>
+            <option value="1">1 Yes</option>
+            <option value="2">2 Sort of</option>
+            <option value="3">3 Not Sure</option>
+            <option value="4">4 Not Really</option>
+            <option value="5">4 No</option>
+          </select>
+
+        </div>
+      </div>
+
+
+      
+      <button id="submitButton" type="submit" class="btn btn-lg btn-primary" style="background-color:#64bb46; border-color:#54aa38"><h4>Submit</h4></button> 
+  
+      <br>
+
+      
+      <footer class="footer">
+      
+      </footer>
+
+      
+      <div id="resultsModal" class="modal fade" role="dialog">
+        
+        <div class="modal-dialog">
+          
+          <div class="modal-content">
+          
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+               
+              <h2 class="modal-title" style="color:#582C83"><strong>Download your welcome packet</strong></h2>
+            </div>
+
+            
+            <div class="modal-body">
+               
+              <h2 id="matchName"></h2>
+              <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+            </div>
+
+             
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>	
+
+    <script type="text/javascript">
+     
+    $(document).ready(function() {
+    $("#submitButton").on("click", function() {
+         
+        function newForm() {
+            
+            var completeForm = true;
+            $(".form-control").each(function() {
+                if ($(this).val() === ""){
+                    completeForm = false;
+                }
+            });
+            $(".select").each(function() {
+                if ($(this).val() === ""){
+                    completeForm = false;
+                }
+            });
+            return completeForm;
+        }
+         
+        if (newForm() == true) {
+             
+            var newFriend = {
+                name: $("#formName").val().trim(),
+                profilePic: $("#formOrg").val().trim(),
+                scores: [
+                    $('#Q1').val(),
+                    $('#Q2').val(),
+                    $('#Q3').val(),
+                    $('#Q4').val(),
+                    $('#Q5').val(),
+                    $('#Q6').val(),
+                    $('#Q7').val(),
+                    $('#Q8').val(),
+                    $('#Q9').val(),
+                    $('#Q10').val(),
+                ]
+            };
+             
+            var currentURL = window.location.origin;
+             
+            $.post(currentURL + "/api/friends", newFriend, function(data) {
+                
+                $("#matchName").text(data.name);
+                $("#matchImg").attr("src", data.photo);
+                $("#resultsModal").modal("toggle");
+            });
+            
+            $('#formName').val("");
+            $('#formOrg').val("");
+            $('#Q1').val("");
+            $('#Q2').val("");
+            $('#Q3').val("");
+            $('#Q4').val("");
+            $('#Q5').val("");
+            $('#Q6').val("");
+            $('#Q7').val("");
+            $('#Q8').val("");
+            $('#Q9').val("");
+            $('#Q10').val("");
+           
+        } else {
+            alert("Please complete all fields. Thank you.")
+        }
+        
+    });
+});
+</script>
+
+</body>
+
+</html>
